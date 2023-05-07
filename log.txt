@@ -1,2 +1,3 @@
 pnpm init
 mkdir {apps,packages}
+pnpm dlx create-t3-app@latest lists-app
