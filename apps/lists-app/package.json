@@ -2,6 +2,7 @@
   "name": "lists-app",
   "version": "0.1.0",
   "private": true,
+  "name": "lists-app",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
