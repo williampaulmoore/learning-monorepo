@@ -92,6 +92,16 @@ importers:
         specifier: ^5.0.2
         version: 5.0.2
 
+  packages/shared-ui:
+    dependencies:
+      react:
+        specifier: 18.2.0
+        version: 18.2.0
+    devDependencies:
+      typescript:
+        specifier: ^5.0.2
+        version: 5.0.2
+
 packages:
 
   /@babel/runtime@7.21.5:

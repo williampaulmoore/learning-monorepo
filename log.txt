@@ -2,3 +2,9 @@ pnpm init
 mkdir {apps,packages}
 pnpm dlx create-t3-app@latest lists-app
 pnpm --filter lists-app dev
+mkdir packages/shared-ui
+cd packages/shared-ui
+pnpm init
+cd ../..
+pnpm add --filter shared-ui react
+pnpm add --filter shared-ui typescript -D
