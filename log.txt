@@ -1,1 +1,2 @@
 pnpm init
+mkdir {apps,packages}
